@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADD BOOK</title>
+</head>
+<body>
+	<div
+		style="display: flex; justify-content: center; align-items: center; text-align: center; padding-top: 20%;">
+		<form action="./getallbook/addBook" method="post">
+			<table border=1>
+				<tr>
+					<td colspan=2>
+						<h1>Enter the Details of book</h1>
+					</td>
+				<tr>
+				<tr>
+					<td><label for="bookName"> BOOK NAME</label></td>
+					<td><input type="text" id="bookName" name="bookName"></td>
+				</tr>
+				<tr>
+					<td><label for="authorName">AUTHOR NAME </label></td>
+					<td><input type="text" id="authorName" name="authorName"></td>
+				</tr>
+				<tr>
+					<td><label for="purchaseDate">PURCHASE DATE </label></td>
+
+					<td><input type="date" id="purchaseDate" name="purchaseDate"></td>
+				</tr>
+				<tr>
+					<td><label for="bookPrice">PRICE </label></td>
+					<td><input type="text" id="bookPrice" name="bookPrice"></td>
+				</tr>
+				<tr>
+
+					<td><label for="soldDate">SOLD DATE </label></td>
+					<td><input type="date" id="soldDate" name="soldDate"></td>
+				</tr>
+				
+				<tr>
+					<td colspan=2>
+						<button name="addBook">Add</button>
+					</td>
+
+				</tr>
+
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
