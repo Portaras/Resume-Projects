@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+th{
+	border: 1;
+	background-color: aqua;
+	text-align: center;
+}
+td{
+	border: 1;
+	background-color: #fcfcf4;
+	text-align: center;
+}
+#container{
+	text-align:center;
+	display:grid;
+	justify-content: center;
+}
