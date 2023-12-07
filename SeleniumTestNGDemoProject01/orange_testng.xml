@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium TestNG Demo Project 01" verbose="2">
+	<test name="LoginPageTest">
+		<classes>
+			<class name="in.chrome.orange.testcases.LoginPageTestCase" />
+		</classes>
+
+	</test>
+
+</suite>

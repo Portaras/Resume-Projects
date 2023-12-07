@@ -1,0 +1,5 @@
+2023-12-02 21:34:08 INFO e.orange.commons.LoadWebDriver   <clinit> main       0 23  Properies file came in to java code
+2023-12-02 21:34:08 INFO e.orange.commons.LoadWebDriver  getDriver main       11 37  Entering get driver method
+2023-12-02 21:34:12 INFO e.orange.commons.LoadWebDriver     getUrl main       3786 54  Entering get URL method
+2023-12-02 21:34:12 INFO e.orange.commons.LoadWebDriver     getUrl main       3788 57  Exiting get URL method
+2023-12-02 21:34:27 INFO e.orange.commons.LoadWebDriver initializePageFactory main       19107 35  Entering initializePageFactory method

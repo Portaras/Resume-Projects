@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium TestNG Demo Project 01]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="LoginPageTest(failed)" verbose="2">
+    <classes>
+      <class name="in.chrome.orange.testcases.LoginPageTestCase">
+        <methods>
+          <include name="loginFailureWrongUsernameTestCase"/>
+          <include name="closeBrowser"/>
+          <include name="loginFailureWrongPasswordTestCase"/>
+        </methods>
+      </class> <!-- in.chrome.orange.testcases.LoginPageTestCase -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+</suite> <!-- Failed suite [Selenium TestNG Demo Project 01] -->
